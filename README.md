@@ -1,1 +1,2 @@
-# My DSA Practice Repo
+# DSA-Practice
+My Data Structures and Algorithms solutions
