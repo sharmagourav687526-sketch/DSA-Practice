@@ -15,4 +15,5 @@ public class halfPyramid {
             logger.info(row.toString());
         }
     }
+    //hdgdhdjyd
 }
