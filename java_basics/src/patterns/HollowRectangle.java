@@ -1,6 +1,6 @@
 package patterns;
 
-public class hollowRectangle {
+public class HollowRectangle {
     public static void main(String[] args) {
         int rows = 4;
         int cols = 5;

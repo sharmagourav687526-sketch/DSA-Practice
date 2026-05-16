@@ -1,5 +1,5 @@
 package patterns;
-public class halfPyramid {
+public class HalfPyramid {
     public static void main(String[] arg) {
         int rows = 5;
 

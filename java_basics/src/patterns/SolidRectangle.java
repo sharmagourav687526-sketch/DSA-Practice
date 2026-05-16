@@ -1,6 +1,6 @@
 package patterns;
 
-public class solidRectangle {
+public class SolidRectangle {
     public static void main(String[] args) {
         int rows = 4;
         int cols = 5;
