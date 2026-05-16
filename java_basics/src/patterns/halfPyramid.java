@@ -1,19 +1,14 @@
-import java.util.logging.Logger;
-
-import patterns;
-
+package patterns;
 public class halfPyramid {
-    private static final Logger logger = Logger.getLogger(halfPyramid.class.getName());
+    public static void main(String[] arg) {
+        int rows = 5;
 
-    public static void main(String[] args) {
-        int n = 5;
-        for (int j = 1; j <= n; j++) {
-            StringBuilder row = new StringBuilder();
-            for (int i = 1; i <= j; i++) {
-                row.append("* ");
+        //here we need two
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("# ");
             }
-            logger.info(row.toString());
+            System.out.println();
         }
     }
-    //hdgdhdjyd
 }
